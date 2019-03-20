@@ -1,0 +1,193 @@
+html, body, #app, #app>div {
+    height: 100%
+}
+
+a{
+    font-size: 10px;
+}
+
+.container{
+    width:100%;
+    height: calc(100% - 40px);
+    position: absolute;
+    max-width: 100%;
+    background-color: aliceblue;
+}
+
+.mapContainer{
+    top:-40px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.containerLogin{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    max-width: 100%;
+}
+
+b{
+    color: blue;
+    font: italic bold 16px/25px Georgia, serif;
+}
+
+
+pre{
+    color: purple;
+}
+
+h2{
+    color:red;
+}
+
+.channelShowHide{
+    top:50%;
+    right: 0;
+    margin-right:0;
+    position: absolute;
+}
+
+.dvrchannels{
+    background-color: aqua;
+    left:0;
+    top: 0;
+    width:200px;
+    position: absolute;
+    height: 100%;
+    z-index: 50;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    color:red;
+}
+
+td{
+    color:blue;
+}
+
+.closeVideo{
+    right: 0;
+    position: absolute;
+    top:-20px;
+}
+
+.videoplayer{
+    display: block;
+    position: absolute;
+    right:4%;
+    bottom:4%;
+    width: 40%;
+    height: 40%;
+    max-height: 80%;
+    z-index: 5;
+}
+
+.videoControl{
+    position: fixed;
+    width: 200px;
+    float:right;
+    right: 0;
+    top:75px;
+    z-index: 5;
+}
+
+.videoInfo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:40%;
+    height:100%;
+    background-color: aliceblue;
+}
+
+.footerImage{
+    position: fixed;
+    background: url(../../Assets/core-img/support-pattern.png);
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+    z-index: 1;
+}
+
+.inner
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+
+.videoControlButtons{
+    width: 30px;
+    height: 30px;
+}
+
+video{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width:60%;
+    height:100%;
+}
+
+iframe{
+    width:100%;
+    height:100%;
+}
+
+.header {
+    height:30%;
+}
+
+.dateForm{
+    width: 20%;
+    position: absolute;
+    bottom:0;
+    z-index: 15;
+}
+
+.login {
+    width: 100%;
+    height: 50%;
+    
+}
+
+.pass{
+    width: 20% !important;
+    margin-right:-40%;
+}
+
+.user{
+    width: 20% !important;
+    margin-right:-40%;
+    margin-top:5%;
+}
+
+
+
+::placeholder {
+    color: blue;
+    font-size: 1.5em;
+}
+
+.alarm{
+    color: red;
+}
+  
+.logOut{
+    float: right;
+}
+
+.react-datepicker{
+    width: 300px;
+}
+.react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button){
+    right: 200px !important;
+}

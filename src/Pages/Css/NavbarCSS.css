@@ -1,0 +1,84 @@
+html, body, #app, #app>div {
+    height: 100%
+  }
+
+
+nav{
+    background: #1c66de;
+    font-family: Arial, Helvetica, sans-serif !important;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    position: relative;
+    z-index: 5;
+}
+
+  
+  
+  
+  .navbar{
+    height: 40px;
+    background-color:#1c66de !important;
+  }
+  
+
+  
+.logo{
+    background: url(../../Assets/logo.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    float: left;
+    width: 130px;
+    height: 40px;
+    margin-left: 25px;
+    margin-right: 75px;
+}
+  
+  h2{
+    color:red;
+  }
+
+
+
+
+.header {
+    height:30%;
+}
+
+.dateForm{
+    position: absolute;
+    bottom:0;
+}
+
+.login {
+
+    width: 100%;
+
+}
+
+.pass{
+    width: 20% !important;
+    margin-right:-40%;
+}
+
+.user{
+    width: 20% !important;
+    margin-right:-40%;
+    margin-top:5%;
+}
+
+
+
+::placeholder {
+    color: blue;
+    font-size: 1.5em;
+}
+
+.alarm{
+    color: red;
+}
+  
+.logOut{
+    float: right;
+}
